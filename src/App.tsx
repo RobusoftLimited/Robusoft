@@ -6,8 +6,11 @@ function App() {
   return (
     <div className="App">
       <div className='jumbotron'>
-        <h1>Hello, Jumbotron</h1>
+        <h1 className='display-4'>Hello, Jumbotron</h1>
         <p>Is this still a thing?</p>
+        <p className='lead'>
+          Happy with the initial result
+        </p>
       </div>
     </div>
   );
