@@ -1,16 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 @charset "UTF-8";
 /*!
 =========================================================
@@ -11190,7 +11177,7 @@ nav.page-navbar.affix .navbar-brand .text-dark {
 }
 
 .header {
-  background: #fbdb5e url('./images/dublin.png');
+  background: #efefef url(../imgs/header.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11286,7 +11273,7 @@ section.p-md {
 }
 
 section.has-bg-img {
-  background-image: url('/public/assets/imgs/bg-img-1.jpg');
+  background-image: url(../imgs/bg-img-1.jpg);
   background-size: cover;
   background-position: center;
   min-height: 450px;
@@ -11342,7 +11329,7 @@ section.height-auto {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('/public/assets/imgs/header.jpg') no-repeat center center fixed;
+  background: url(../imgs/header.jpg) no-repeat center center fixed;
   background-size: cover;
   z-index: -1;
   opacity: .4;
