@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/Robusoft/static/css/main.073c9b0a.css",
-    "main.js": "/Robusoft/static/js/main.6bfceb04.js",
+    "main.css": "/Robusoft/static/css/main.430e382b.css",
+    "main.js": "/Robusoft/static/js/main.4058ea35.js",
     "static/js/787.3940cfee.chunk.js": "/Robusoft/static/js/787.3940cfee.chunk.js",
+    "static/media/dublin.png": "/Robusoft/static/media/dublin.22106c4ace8026b3805c.png",
+    "static/media/img-2.png": "/Robusoft/static/media/img-2.d078105866769f101e36.png",
+    "static/media/img-1.png": "/Robusoft/static/media/img-1.284c2a3cf3f5990e7951.png",
+    "static/media/header.jpg": "/Robusoft/static/media/header.e9dfbca2072f11793777.jpg",
+    "static/media/bg-img-1.jpg": "/Robusoft/static/media/bg-img-1.be529fe63dee35e140b9.jpg",
     "index.html": "/Robusoft/index.html",
-    "main.073c9b0a.css.map": "/Robusoft/static/css/main.073c9b0a.css.map",
-    "main.6bfceb04.js.map": "/Robusoft/static/js/main.6bfceb04.js.map",
+    "main.430e382b.css.map": "/Robusoft/static/css/main.430e382b.css.map",
+    "main.4058ea35.js.map": "/Robusoft/static/js/main.4058ea35.js.map",
     "787.3940cfee.chunk.js.map": "/Robusoft/static/js/787.3940cfee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6bfceb04.js"
+    "static/css/main.430e382b.css",
+    "static/js/main.4058ea35.js"
   ]
 }
