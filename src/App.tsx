@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
+import robuicon from "./images/robu-icon.jpg";
+
 import "./App.css";
 
 function App() {
@@ -7,12 +8,13 @@ function App() {
     <div className="App">
       <nav
         id="scrollspy"
-        className="navbar page-navbar navbar-light navbar-expand-md fixed-top"
+        className="navbar page-navbar navbar-dark bg-dark navbar-expand-md fixed-top"
         data-spy="affix"
         data-offset-top="20"
       >
         <div className="container">
           <a className="navbar-brand" href="www.google.com">
+            <img src={robuicon} style={{borderRadius: '20%'}} alt="icon" height="40px" width="50px" className="mr-2"/>
             <strong className="text-primary">ROBUSOFT</strong>{" "}
           </a>
           <button
@@ -42,6 +44,11 @@ function App() {
               <li className="nav-item">
                 <a className="nav-link" href="#content">
                   Mission
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#services">
+                  Services
                 </a>
               </li>
               <li className="nav-item">

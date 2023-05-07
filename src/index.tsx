@@ -8,6 +8,7 @@ import About from './About';
 import Content from './Content';
 import Feature from './Feature';
 import Contact from './Contact';
+import Services from './Services';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,6 +19,7 @@ root.render(
     <Header/>
     <About/>
     <Content/>
+    <Services/>
     <Feature/>
     <Contact/>
   </React.StrictMode>

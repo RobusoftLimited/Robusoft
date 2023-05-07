@@ -21,7 +21,6 @@ function About() {
                             <p>We have embraced innovative solutions that empower us to develop scalable and efficient software architectures, leverage the benefits of cloud computing, and harness the potential of data analytics. These technologies equip us with the tools necessary to adapt to the ever-changing business landscape and deliver cutting-edge solutions to our customers.</p>
                         </div>
                     </div>                  
-                    <a href="javascript:void(0)">Read More...</a>
                 </div>
             </div>         
         </div>         
