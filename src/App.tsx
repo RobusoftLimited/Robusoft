@@ -1,5 +1,4 @@
 import React from "react";
-import robuicon from "./images/robu-icon.jpg";
 
 import "./App.css";
 
@@ -14,7 +13,6 @@ function App() {
       >
         <div className="container">
           <a className="navbar-brand" href="www.google.com">
-            <img src={robuicon} style={{borderRadius: '20%'}} alt="icon" height="40px" width="50px" className="mr-2"/>
             <strong className="text-primary">ROBUSOFT</strong>{" "}
           </a>
           <button
