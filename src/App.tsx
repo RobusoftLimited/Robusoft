@@ -13,7 +13,7 @@ function App() {
       >
         <div className="container">
           <a className="navbar-brand" href="www.google.com">
-            <strong className="text-primary">ROBUSOFT</strong>{" "}
+            <strong className="text-primary">ROBUSOFT &copy;2024</strong>{" "}
           </a>
           <button
             className="navbar-toggler"
@@ -36,7 +36,7 @@ function App() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">
-                  About 2024
+                  About
                 </a>
               </li>
               <li className="nav-item">
