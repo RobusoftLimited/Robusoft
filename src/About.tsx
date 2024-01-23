@@ -7,7 +7,7 @@ function About() {
         <section id="about">
         <div className="container">
             <div className="about-wrapper">
-                <div className="after"><h1>About</h1></div>
+                <div className="after"><h1>About us</h1></div>
                 <div className="content">
                     <h5 className="title mb-3">Powerful Alliance Driving Business Success</h5>
                     <div className="row">
