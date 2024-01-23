@@ -19,9 +19,16 @@ function Contact() {
         <h1>CONTACT US</h1>
         <p className="mb-5">
           We are here to help our clients succeed in their digital transformation endeavors.
-          <br/>If you have some questions or need help, Please Contact Us <br />
+          <br/>Get in touch with us today. We would love to hear from you.<br />
         </p>
 
+        <div className="container">
+          TEL: +353 1 123 3388
+          EMAIL: robusoft.limited@gmail.com
+          <p className="mb-5">Letterkenny House, Donegal,
+          Republic of Ireland</p>
+        </div>
+        
         <form onSubmit={handleSubmit} className="contact-form col-md-11 col-lg-9 mx-auto">
           <div className="form-row">
             <div className="col form-group">
