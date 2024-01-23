@@ -54,7 +54,9 @@ function Contact() {
           </div>
         </form>
       </div>
+      <p>&copy;2024</p>
     </section>
+    
   );
 }
 

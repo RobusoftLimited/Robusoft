@@ -13,7 +13,7 @@ function App() {
       >
         <div className="container">
           <a className="navbar-brand" href="www.google.com">
-            <strong className="text-primary">ROBUSOFT &copy;2024</strong>{" "}
+            <strong className="text-primary">ROBUSOFT</strong>{" "}
           </a>
           <button
             className="navbar-toggler"
