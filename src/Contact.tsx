@@ -80,7 +80,7 @@ function Contact() {
           </div>
         </form>
       </div>
-      <p>&copy;2024</p>
+      <p className="mt-5">&copy;2024</p>
     </section>
   );
 }
