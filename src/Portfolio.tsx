@@ -2,14 +2,14 @@ import React from "react";
 import img2 from "./images/img-2.png";
 import "./App.css";
 
-function Feature() {
+function Portfolio() {
   return (
     <section id="feature">
         <div className="container">
             <div className="row justify-content-between align-items-center">                
                 <div className="col-md-5">
                     <h6 className="title mb-3">Our Diverse Portfolio of Excellence.</h6>
-                    <p>We specialize in Enterprise applications having worked on projects in the following business sectors:</p>
+                    <p>We specialise in enterprise applications having worked on projects in the following business sectors:</p>
                     <ul className="my-list">
                         <li>Financial - Citi, Prudential</li>
                         <li>Real Estate - Wells Fargo</li>
@@ -37,4 +37,4 @@ function Feature() {
   );
 }
 
-export default Feature;
+export default Portfolio;

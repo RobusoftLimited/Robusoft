@@ -22,11 +22,11 @@ function Services() {
                 Services
               </h3>
   
-              <p>We are a provider of innovative and reliable solutions, specializing in a range of services designed to empower your business. </p>
+              <p>We are a provider of innovative and reliable solutions, specialising in a range of services designed to empower your business. </p>
               <p>With our expertise and cutting-edge technologies, we help you stay ahead of the curve in today's ever-evolving digital landscape.
               </p>
               <h6>Web Apps</h6>
-              <p>We excel in crafting powerful and user-friendly web applications tailored to your specific requirements. Whether you need a responsive website, an e-commerce platform, or a complex web portal, we combine our technical prowess with creativity to deliver engaging and scalable solutions that drive your online presence forward.</p>
+              <p>We excel in crafting secure and user-friendly web applications tailored to your specific requirements. Whether you need a responsive website, an e-commerce platform, or a complex web portal, we combine our technical prowess with creativity to deliver engaging and scalable solutions that drive your online presence forward.</p>
               <h6>Cloud Technologies</h6>
                 <p>Embrace the power of the cloud with our comprehensive cloud services. We offer expert guidance and implementation strategies to migrate your infrastructure, applications, and data to secure and scalable cloud platforms. </p>
                 <h6>Data Warehousing</h6>

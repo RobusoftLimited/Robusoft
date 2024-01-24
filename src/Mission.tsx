@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "./images/img-1.png";
 import "./App.css";
 
-function Content() {
+function Mission() {
   return (
     <section id="content">
       <div className="container">
@@ -27,7 +27,7 @@ function Content() {
             </p>
             <p>We understand the challenges that businesses face in today's dynamic and technology-driven landscape.</p>
             <p>
-            Our mission goes beyond just delivering software solutions. We are dedicated to building long-lasting partnerships with our clients, providing ongoing support and guidance throughout their technology journey. We aim to be a trusted advisor, offering strategic insights and leveraging our industry expertise to help businesses navigate the rapidly evolving technological landscape.
+            Our mission goes beyond just delivering software solutions. We are dedicated to building long-lasting partnerships with our clients, providing ongoing support and guidance throughout their technology journey. We aim to be a trusted advisor, offering strategic insights and leveraging our enterprise expertise to help businesses navigate the rapidly evolving technological landscape.
             </p>
           </div>
         </div>
@@ -36,4 +36,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Mission;
