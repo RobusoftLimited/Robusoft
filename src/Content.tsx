@@ -23,7 +23,7 @@ function Content() {
             </h6>
 
             <p>
-            Our mission is clear and purpose-driven. We are committed to delivering robust and secure software solutions and cutting-edge technologies that empower businesses to enhance and streamline their operations.
+            Our mission centers on our expertise in Enterprise applications. We are committed to providing businesses with reliable, stable and secure software solutions, underscoring our specialisation in the area of enterprise applications.
             </p>
             <p>We understand the challenges that businesses face in today's dynamic and technology-driven landscape.</p>
             <p>
