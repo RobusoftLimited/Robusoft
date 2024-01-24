@@ -59,6 +59,11 @@ function App() {
                   Contact
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#link">
+                  Link
+                </a>
+              </li>
             </ul>
           </div>
         </div>

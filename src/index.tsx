@@ -9,6 +9,7 @@ import Content from './Content';
 import Feature from './Feature';
 import Contact from './Contact';
 import Services from './Services';
+import Link from './Link';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,6 +23,7 @@ root.render(
     <Services/>
     <Feature/>
     <Contact/>
+    <Link/>
   </React.StrictMode>
 );
 

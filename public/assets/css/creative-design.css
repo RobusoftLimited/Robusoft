@@ -11489,3 +11489,12 @@ section.height-auto {
 .testmonial-wrapper .title {
   margin-top: -40px;
 }
+
+ul {
+  list-style: none; 
+  padding-left: 20px; 
+}
+
+li {
+  margin-bottom: 5px; 
+}
