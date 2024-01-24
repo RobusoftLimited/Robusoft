@@ -21,7 +21,7 @@ function Link() {
             alt="linkedin icon"
           />
         </a>
-        <h4><i className="ti-file"></i> <a href={cv_url} download="cv.docx">Download CV</a></h4>
+        <h4><i className="ti-download"></i> <a href={cv_url} download="cv.docx">Download CV</a></h4>
       </div>
       <p className="mt-5">&copy;2024</p>
     </section>
