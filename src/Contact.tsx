@@ -30,9 +30,9 @@ function Contact() {
           Get in touch with us today. We would love to hear from you.
           <br />
         </p>
-        <span><i className="ti-mobile"></i>TEL: +353 1 123 3388</span><br/>
-        <span>EMAIL: robusoft.limited@gmail.com</span>
-        <p className="mb-5">Letterkenny House, Donegal, Republic of Ireland</p>
+        <span><i className="ti-mobile"></i> +353 1 123 3388</span><br/>
+        <span><i className="ti-email"></i> robusoft.limited@gmail.com</span>
+        <p className="mb-5"><i className="ti-home"></i>Letterkenny House, Donegal, Republic of Ireland</p>
         <form
           onSubmit={handleSubmit}
           className="contact-form col-md-11 col-lg-9 mx-auto"
