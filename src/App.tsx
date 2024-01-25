@@ -12,7 +12,7 @@ function App() {
         data-offset-top="20"
       >
         <div className="container">
-          <a className="navbar-brand" href="www.google.com">
+          <a className="navbar-brand" href="/">
             <strong className="text-primary">ROBUSOFT</strong>{" "}
           </a>
           <button
@@ -61,7 +61,7 @@ function App() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#link">
-                  Link
+                  Links
                 </a>
               </li>
             </ul>
