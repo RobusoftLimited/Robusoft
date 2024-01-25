@@ -12,7 +12,7 @@ function App() {
         data-offset-top="20"
       >
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="https://robusoftlimited.github.io/Robusoft/">
             <strong className="text-primary">ROBUSOFT</strong>{" "}
           </a>
           <button
