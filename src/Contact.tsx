@@ -1,4 +1,6 @@
 import { useState } from "react";
+import emailjs from 'emailjs-com';
+import { toast } from "react-toastify";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -14,9 +16,24 @@ function Contact() {
 
   const handleSubmit = (event: any) => {
     event.preventDefault();
-    alert(
-      `Name: ${formData.name}, Email: ${formData.email}, Message: ${formData.message}`
-    );
+    const serviceId = 'contact_service';
+    const templateId = 'contact_form';
+    const publicKey = 'k8xs3nGFk3ZY3ZyEB';
+
+    //send email
+    emailjs.sendForm(serviceId, templateId, event.target, publicKey)
+      .then((result)=>{
+        toast.success('Your message has been successfully sent. A member of our team will promptly respond to your inquiry.');
+        //reset form
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+      }, (error:any)=>{
+        console.log(error.text);
+      })
+
   };
 
   return (
