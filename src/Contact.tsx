@@ -4,16 +4,19 @@ import { toast } from "react-toastify";
 
 function Contact() {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
   });
 
   const handleChange = (event: any) => {
     const { name, value } = event.target;
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
   };
-
+  
+  const {name, email, message} = formData;
+  const invalidForm = name.trim() === '' || email.trim() === ''|| message === '';
+  
   const handleSubmit = (event: any) => {
     event.preventDefault();
     const serviceId = 'contact_service';
@@ -23,12 +26,12 @@ function Contact() {
     //send email
     emailjs.sendForm(serviceId, templateId, event.target, publicKey)
       .then((result)=>{
-        toast.success('Your message has been successfully sent. A member of our team will promptly respond to your inquiry.');
+        toast.success('Message sent. A member of our team will respond asap .');
         //reset form
         setFormData({
-          name: "",
-          email: "",
-          message: "",
+          name: '',
+          email: '',
+          message: '',
         });
       }, (error:any)=>{
         console.log(error.text);
@@ -92,6 +95,7 @@ function Contact() {
           <div className="form-group">
             <input
               type="submit"
+              disabled={invalidForm}
               className="btn btn-primary btn-block"
               value="Send Message"
             />
