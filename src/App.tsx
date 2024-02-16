@@ -40,27 +40,32 @@ function App() {
           <div onClick={hideNavbar} className={isActive ? "collapse navbar-collapse show": "collapse navbar-collapse"} 
                 id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item" >
+              <li className="nav-item" data-toggle="collapse"
+            data-target="#navbarSupportedContent" >
                 <a className="nav-link" href="#home">
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-toggle="collapse"
+            data-target="#navbarSupportedContent">
                 <a className="nav-link" href="#about">
                   About
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-toggle="collapse"
+            data-target="#navbarSupportedContent">
                 <a className="nav-link" href="#content">
                   Mission
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-toggle="collapse"
+            data-target="#navbarSupportedContent">
                 <a className="nav-link" href="#services">
                   Services
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-toggle="collapse"
+            data-target="#navbarSupportedContent">
                 <a className="nav-link" href="#feature">
                   Portfolio
                 </a>
@@ -70,7 +75,8 @@ function App() {
                   Contact
                 </a>
               </li>
-              <li className="nav-item" >
+              <li className="nav-item" data-toggle="collapse"
+            data-target="#navbarSupportedContent">
                 <a className="nav-link" href="#link">
                   Links
                 </a>
