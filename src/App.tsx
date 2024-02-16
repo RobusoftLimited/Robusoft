@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  let toggleMe = true;
+  const [isActive, setIsActive] = useState<boolean>(toggleMe);
+  
+  function hideNavbar(event: any): void {
+    setIsActive(toggleMe => !toggleMe);
+  }
+
   return (
     <div className="App">
       <nav
@@ -17,6 +24,7 @@ function App() {
             <strong className="text-primary">ROBUSOFT</strong>{" "}
           </a>
           <button
+            onClick={hideNavbar}
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -28,39 +36,39 @@ function App() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className={isActive ? "collapse navbar-collapse show": "collapse navbar-collapse"} id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+              <li className="nav-item" onClick={hideNavbar}>
                 <a className="nav-link" href="#home">
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={hideNavbar}>
                 <a className="nav-link" href="#about">
                   About
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={hideNavbar}>
                 <a className="nav-link" href="#content">
                   Mission
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={hideNavbar}>
                 <a className="nav-link" href="#services">
                   Services
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={hideNavbar}>
                 <a className="nav-link" href="#feature">
                   Portfolio
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={hideNavbar}>
                 <a className="nav-link" href="#contact">
                   Contact
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={hideNavbar}>
                 <a className="nav-link" href="#link">
                   Links
                 </a>
