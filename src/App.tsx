@@ -40,7 +40,7 @@ function App() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item" onClick={hideNavbar}>
                 <a className="nav-link" href="#home">
-                  Home
+                  Home!
                 </a>
               </li>
               <li className="nav-item" onClick={hideNavbar}>
