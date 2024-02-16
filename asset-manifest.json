@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Robusoft/static/css/main.1c5531cd.css",
-    "main.js": "/Robusoft/static/js/main.2c97ee3d.js",
+    "main.js": "/Robusoft/static/js/main.bfd95a03.js",
     "static/js/787.d78a0d84.chunk.js": "/Robusoft/static/js/787.d78a0d84.chunk.js",
     "static/media/dublin.png": "/Robusoft/static/media/dublin.22106c4ace8026b3805c.png",
     "static/media/services.png": "/Robusoft/static/media/services.a2a7d200114d6bb27cd6.png",
@@ -12,11 +12,11 @@
     "static/media/robu-icon.jpg": "/Robusoft/static/media/robu-icon.05fb6362ae2e759b12bc.jpg",
     "index.html": "/Robusoft/index.html",
     "main.1c5531cd.css.map": "/Robusoft/static/css/main.1c5531cd.css.map",
-    "main.2c97ee3d.js.map": "/Robusoft/static/js/main.2c97ee3d.js.map",
+    "main.bfd95a03.js.map": "/Robusoft/static/js/main.bfd95a03.js.map",
     "787.d78a0d84.chunk.js.map": "/Robusoft/static/js/787.d78a0d84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c5531cd.css",
-    "static/js/main.2c97ee3d.js"
+    "static/js/main.bfd95a03.js"
   ]
 }
